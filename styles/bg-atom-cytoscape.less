@@ -5,4 +5,29 @@
 @import "ui-variables";
 
 .bg-atom-cytoscape {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
+
+.atom-cyto-cntrPanel {
+	font-size: small;
+	border-bottom: 1px solid @pane-item-border-color;
+	padding-bottom: 1px;
+	margin-bottom: 3px;
+}
+
+#cy {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.bg-atom-cytoscape > iframe {
+	border : none;
+}
+
+@import (less) "../node_modules/bg-dom/bg-dom.css";
