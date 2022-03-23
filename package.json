@@ -2,7 +2,7 @@
   "name": "bg-atom-cytoscape",
   "main": "esmToCjsPkgBridge.js",
   "module": "./lib/CytoscapeAtomPlugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Provides a Cytoscape.js wrapper to view graph data inside the editor",
   "keywords": [
     "atom",
